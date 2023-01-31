@@ -1,0 +1,81 @@
+.patrick-container {
+  background-color: hsl(219deg, 29%, 14%);
+  border-radius: 10px;
+  padding: 20px 35px;
+  grid-column: 2/4;
+  grid-row: 2/2;
+}
+@media screen and (max-width: 375px) {
+  .patrick-container {
+    margin: 0 13px;
+    padding: 20px 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .patrick-container {
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+}
+
+.patrick-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.patrick-img {
+  border-radius: 50%;
+}
+
+.patrick-info {
+  margin-left: 10px;
+}
+@media screen and (max-width: 375px) {
+  .patrick-info {
+    margin-left: 15px;
+  }
+}
+
+.patrick-name {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .patrick-name {
+    font-size: 0.9rem;
+  }
+}
+
+.patrick-graduate {
+  color: hsl(0deg, 0%, 81%);
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+@media screen and (max-width: 375px) {
+  .patrick-graduate {
+    font-size: 0.8rem;
+  }
+}
+
+.patrick-feedback {
+  color: hsl(0deg, 0%, 100%);
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 375px) {
+  .patrick-feedback {
+    font-size: 0.8rem;
+  }
+}
+
+.patrick-text {
+  color: hsl(0deg, 0%, 81%);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 375px) {
+  .patrick-text {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=PatrickContainer.css.map */

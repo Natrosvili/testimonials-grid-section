@@ -1,0 +1,30 @@
+@import "../functions/functions.sass"
+
+.jonathan-container
+    @include container($darkGreyishBlue)
+    grid-column: 3 / 4
+    grid-row: 1 / 2
+    @media screen and (max-width: 375px)
+        grid-column: 3 / 4
+        grid-row: 2 / 3
+
+.jonathan-flexbox
+    @include flexbox()
+
+.jonathan-img
+    @include img()
+
+.jonathan-info
+    @include info()
+
+.jonathan-name
+    @include name($white)
+
+.jonathan-graduate
+    @include graduate()
+
+.jonathan-feedback
+    @include feedback($white)
+
+.jonathan-text
+    @include text($lightGrey)

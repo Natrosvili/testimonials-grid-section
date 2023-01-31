@@ -1,0 +1,82 @@
+.kira-container {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  padding: 20px 35px;
+  grid-row: 1/-1;
+  grid-column: 4/5;
+}
+@media screen and (max-width: 375px) {
+  .kira-container {
+    margin: 0 13px;
+    padding: 20px 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .kira-container {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    height: 35vh;
+  }
+}
+
+.kira-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.kira-img {
+  border-radius: 50%;
+}
+
+.kira-info {
+  margin-left: 10px;
+}
+@media screen and (max-width: 375px) {
+  .kira-info {
+    margin-left: 15px;
+  }
+}
+
+.kira-name {
+  color: hsl(219deg, 29%, 14%);
+  font-size: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .kira-name {
+    font-size: 0.9rem;
+  }
+}
+
+.kira-graduate {
+  color: hsl(0deg, 0%, 81%);
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+@media screen and (max-width: 375px) {
+  .kira-graduate {
+    font-size: 0.8rem;
+  }
+}
+
+.kira-feedback {
+  color: hsl(219deg, 29%, 14%);
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 375px) {
+  .kira-feedback {
+    font-size: 0.8rem;
+  }
+}
+
+.kira-text {
+  color: hsl(219deg, 29%, 14%);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 375px) {
+  .kira-text {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=KiraContainer.css.map */

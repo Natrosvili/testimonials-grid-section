@@ -1,0 +1,30 @@
+@import "../functions/functions.sass"
+
+.jeanette-container
+    @include container($white)
+    grid-column: 1 / 1
+    grid-row: 2 / 2
+    @media screen and (max-width: 375px)
+        grid-column: 3 / 4
+        grid-row: 3 / 4
+
+.jeanette-flexbox
+    @include flexbox()
+
+.jeanette-img
+    @include img()
+
+.jeanette-info
+    @include info()
+
+.jeanette-name
+    @include name($darkBlackishBlue)
+
+.jeanette-graduate
+    @include graduate()
+
+.jeanette-feedback
+    @include feedback($darkBlackishBlue)
+
+.jeanette-text
+    @include text($darkBlackishBlue)

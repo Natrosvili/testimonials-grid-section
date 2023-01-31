@@ -1,0 +1,81 @@
+.jeanette-container {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  padding: 20px 35px;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+@media screen and (max-width: 375px) {
+  .jeanette-container {
+    margin: 0 13px;
+    padding: 20px 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .jeanette-container {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+}
+
+.jeanette-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.jeanette-img {
+  border-radius: 50%;
+}
+
+.jeanette-info {
+  margin-left: 10px;
+}
+@media screen and (max-width: 375px) {
+  .jeanette-info {
+    margin-left: 15px;
+  }
+}
+
+.jeanette-name {
+  color: hsl(219deg, 29%, 14%);
+  font-size: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .jeanette-name {
+    font-size: 0.9rem;
+  }
+}
+
+.jeanette-graduate {
+  color: hsl(0deg, 0%, 81%);
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+@media screen and (max-width: 375px) {
+  .jeanette-graduate {
+    font-size: 0.8rem;
+  }
+}
+
+.jeanette-feedback {
+  color: hsl(219deg, 29%, 14%);
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 375px) {
+  .jeanette-feedback {
+    font-size: 0.8rem;
+  }
+}
+
+.jeanette-text {
+  color: hsl(219deg, 29%, 14%);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 375px) {
+  .jeanette-text {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=JeanetteContainer.css.map */

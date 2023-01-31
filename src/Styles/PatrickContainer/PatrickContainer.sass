@@ -1,0 +1,30 @@
+@import "../functions/functions.sass"
+
+.patrick-container
+    @include container($darkBlackishBlue)
+    grid-column: 2 / 4
+    grid-row: 2 / 2
+    @media screen and (max-width: 375px)
+        grid-column: 3 / 4
+        grid-row: 4 / 5
+
+.patrick-flexbox
+    @include flexbox()
+
+.patrick-img
+    @include img()
+
+.patrick-info
+    @include info()
+
+.patrick-name
+    @include name($white)
+
+.patrick-graduate
+    @include graduate()
+
+.patrick-feedback
+    @include feedback($white)
+
+.patrick-text
+    @include text($lightGrey)

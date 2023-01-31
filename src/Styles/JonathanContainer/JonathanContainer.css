@@ -1,0 +1,81 @@
+.jonathan-container {
+  background-color: hsl(217deg, 19%, 35%);
+  border-radius: 10px;
+  padding: 20px 35px;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+@media screen and (max-width: 375px) {
+  .jonathan-container {
+    margin: 0 13px;
+    padding: 20px 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .jonathan-container {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+}
+
+.jonathan-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.jonathan-img {
+  border-radius: 50%;
+}
+
+.jonathan-info {
+  margin-left: 10px;
+}
+@media screen and (max-width: 375px) {
+  .jonathan-info {
+    margin-left: 15px;
+  }
+}
+
+.jonathan-name {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .jonathan-name {
+    font-size: 0.9rem;
+  }
+}
+
+.jonathan-graduate {
+  color: hsl(0deg, 0%, 81%);
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+@media screen and (max-width: 375px) {
+  .jonathan-graduate {
+    font-size: 0.8rem;
+  }
+}
+
+.jonathan-feedback {
+  color: hsl(0deg, 0%, 100%);
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 375px) {
+  .jonathan-feedback {
+    font-size: 0.8rem;
+  }
+}
+
+.jonathan-text {
+  color: hsl(0deg, 0%, 81%);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 375px) {
+  .jonathan-text {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=JonathanContainer.css.map */

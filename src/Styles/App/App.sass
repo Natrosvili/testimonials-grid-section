@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap')
+@import "../functions/functions.sass"    
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+ 
+
+
+.gridbox
+    font-family: 'Barlow Semi Condensed', sans-serif
+    display: grid
+    min-height: 100vh
+    gap: 20px
+    grid-template-columns: repeat(4, 20%)
+    grid-template-rows: repeat(2, 41%)
+    place-content: center
+    background-color: $lightGrey
+
+    @media screen and (max-width: 375px)
+        column-gap: 0
+        row-gap: 20px
+        min-height: 200vh
+        grid-template-columns: 0.5%
+        grid-template-rows: repeat(5, 18%)
+

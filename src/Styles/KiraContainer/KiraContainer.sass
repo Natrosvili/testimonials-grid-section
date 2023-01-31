@@ -1,0 +1,32 @@
+@import "../functions/functions.sass"
+
+.kira-container
+    @include container($white)
+    grid-row: 1 / -1
+    grid-column: 4 / 5
+    @media screen and (max-width: 375px)
+        grid-column: 3 / 4
+        grid-row: 5 / 6
+        height: 35vh
+
+
+.kira-flexbox
+    @include flexbox()
+
+.kira-img
+    @include img()
+
+.kira-info
+    @include info()
+
+.kira-name
+    @include name($darkBlackishBlue)
+
+.kira-graduate
+    @include graduate()
+
+.kira-feedback
+    @include feedback($darkBlackishBlue)
+
+.kira-text
+    @include text($darkBlackishBlue)

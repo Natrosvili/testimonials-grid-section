@@ -1,0 +1,54 @@
+$moderateViolet: hsl(263, 55%, 52%)
+$darkGreyishBlue: hsl(217, 19%, 35%)
+$darkBlackishBlue: hsl(219, 29%, 14%)
+$white: hsl(0, 0%, 100%)
+$lightGrey: hsl(0, 0%, 81%)
+
+@mixin container($bc)
+    background-color: $bc
+    border-radius: 10px
+    padding: 20px 35px   
+    @media screen and (max-width: 375px)
+        margin: 0 13px
+        padding: 20px 25px
+    
+@mixin img()
+    border-radius: 50%
+
+@mixin flexbox()
+    display: flex
+    align-items: center
+
+@mixin info()
+    margin-left: 10px
+    @media screen and (max-width: 375px)
+        margin-left: 15px
+
+@mixin name($col)
+    color: $col
+    font-size: 1rem
+    @media screen and (max-width: 375px)
+        font-size: 0.9rem
+
+@mixin graduate()
+    color: $lightGrey
+    font-size: 0.9rem
+    opacity: 0.5
+    @media screen and (max-width: 375px)
+        font-size: 0.8rem
+
+@mixin feedback($cl)
+    color: $cl
+    margin: 10px 0
+    font:
+        weight: 700
+        size: 1.1rem
+    @media screen and (max-width: 375px)
+        font-size: 0.8rem
+
+@mixin text($cl)
+    color: $cl
+    opacity: 0.7
+    font-size: 0.9rem
+    @media screen and (max-width: 375px)
+        font-size: 0.7rem
